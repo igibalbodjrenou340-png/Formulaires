@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bas{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+}
+
+.bas2{
+    width: 100%;
+    box-shadow: 0px 0px 4px rgb(206, 203, 203);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.icons i{
+    font-size: 40px;
+}
+
+.icons{
+    padding: 17px 15px;
+    background-color: green;
+    color: white;
+    border-radius: 50%;
+}
+
+.settings{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.div-parent{
+    display: flex;
+    gap: 10px;
+}
+
+.div-enfant{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+}
+
+.div2 input{
+    height: 35px;
+    outline: none;
+    background-color: #f3f3f3;
+    border: none;
+}
+
+.div1{
+    width: 25%;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.div-enfant input, .div-enfant select{
+    height: 35px;
+    outline: none;
+    border: none;
+    background-color: #f3f3f3;
+}
+
+.div, .div-enfant2{
+    width: 75%;
+}
+
+.div-enfant2{
+    display: flex;
+    gap: 5px;
+}
+
+.div5{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.div-enfant1{
+    display: flex;
+    width: 100%;
+    gap: 5px;
+}
+
+.div-plan{
+    width: 50%;
+}
+
+.div-province{
+    width: 50%;
+}
+
+.bas2 .input{
+    width: 100%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.div2{
+    width: 50%;
+}
+
+.bloc2{
+    width: 75%;
+}
+
+.bouton{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    width: 100%;
+}
+
+.cancel{
+    font-weight: bold;
+    height: 30px;
+    padding: 0px 9px;
+    border: none;
+    border-radius: 5px;
+}
+
+.update{
+    font-weight: bold;
+    height: 30px;
+    padding: 0px 9px;
+    background-color: #4e92c3;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+@media (max-width:856px) {
+    body{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .bas{
+        width: 100%;
+        border: 2px solid black;
+    }
+}
+
+@media (max-width:410px) {
+    body{
+        width: 100%;
+    }
+}
+
